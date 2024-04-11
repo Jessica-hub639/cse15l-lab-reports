@@ -1,3 +1,3 @@
-<l1>Lab report <l1>
+__Lab report 1__
 
 ![Alt text](first.png)
