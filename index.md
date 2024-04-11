@@ -6,6 +6,12 @@
 
 ![Alt text](first.png)
 
+* Command: 'cd messages'
+* Working Directory Before Command: /home/lecture1
+* Output: No visual output.
+* Explanation: Changes the current directory to messages which is inside lecture1.
+* No Error output
+
 
 * Command: 'ls'
 * Working Directory Before Command: /home/username/lecture1
