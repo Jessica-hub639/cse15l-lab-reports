@@ -25,3 +25,8 @@
 * Output: Shows files Hello.java  README  messages .
 * No Error Output
  ![Alt text](second.png)
+
+* Command: ls messages
+* Output: ls: cannot access 'messages': No such file or directory
+* Explanation: The command tries to list the contents of a directory named messages inside the current directory (/workspaces/lecture1/messages). Since there's no subdirectory named messages within the messages directory, the command fails with an error.
+ ![Alt text](fifth.png)
