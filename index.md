@@ -11,6 +11,7 @@
 * Output: No visual output.
 * Explanation: Changes the current directory to messages which is inside lecture1.
 * No Error output
+  ![Alt text](third.png)
 
 
 * Command: 'ls'
