@@ -26,7 +26,12 @@
 * No Error Output
  ![Alt text](second.png)
 
-* Command: ls messages
+* Command: 'ls messages'
 * Output: ls: cannot access 'messages': No such file or directory
 * Explanation: The command tries to list the contents of a directory named messages inside the current directory (/workspaces/lecture1/messages). Since there's no subdirectory named messages within the messages directory, the command fails with an error.
  ![Alt text](fifth.png)
+
+* Command: 'ls es-mx.txt'
+* Output: es-mx.txt
+* Explanation: This command lists the specific file es-mx.txt, confirming its presence in the current directory.
+ ![Alt text](sixth.png)
