@@ -36,9 +36,16 @@
 * Explanation: This command lists the specific file es-mx.txt, confirming its presence in the current directory.
  ![Alt text](sixth.png)
 
+* Command : 'cat'
 * Working Directory Before Command: '/home/username/lecture1/messages'
 * Output: Waits for input; then displays the input.
 * Explanation: 'cat' without arguments reads from standard input until you end it with ctrl-D
  ![Alt text](seventh.png)
 
+* Command: 'cat messages'
+* Working Directory Before Command: /home/username/lecture1
+* Output: cat: 'messages: Is a directory'
+* Explanation: Produces an error because cat cannot read a directory, only files.
+ ![Alt text](eigth.png)
+ 
 
