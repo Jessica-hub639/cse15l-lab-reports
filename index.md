@@ -5,3 +5,10 @@
 * No Error output
 
 ![Alt text](first.png)
+
+
+* Command: 'ls'
+* Working Directory Before Command: /home/username/lecture1
+* Output: Shows files Hello.java  README  messages .
+* No Error Output
+* 
