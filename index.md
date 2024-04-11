@@ -13,6 +13,12 @@
 * No Error output
   ![Alt text](third.png)
 
+* Command: 'cd es-mx.txt'
+* Working Directory Before Command: '/home/username/lecture1/messages'
+* Output: bash: cd: es-mx.txt: Not a directory
+* Explanation: An error occurs because es-mx.txt is a file, and cd can only change directories.
+   ![Alt text](fourth.png)
+
 
 * Command: 'ls'
 * Working Directory Before Command: /home/username/lecture1
