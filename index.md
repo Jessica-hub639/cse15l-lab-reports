@@ -10,5 +10,5 @@ What are the relevant arguments to those methods, and the values of any relevant
 * `StringBuilder chatHistory`: Starts Empty.
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-* `chatHistory` changes from an empty string to `"jpolitz: Hello\n"`.
+* `chatHistory` changes from an empty string to `"jpolitz: Hello"`.
 ![Alt text](lab2first.png)
