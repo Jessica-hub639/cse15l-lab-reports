@@ -4,6 +4,7 @@
 
 ## First Screenshot
 * Method Called: `handle(HttpExchange exchange)`
+  
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 * `HttpExchange exchange`: Contains the HTTP request details.
 * `StringBuilder chatHistory`: Starts Empty.
