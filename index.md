@@ -24,3 +24,8 @@ What are the relevant arguments to those methods, and the values of any relevant
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 * `chatHistory` updates to `"jpolitz: Hello\nyash: How are you\n"`
 ![Alt text](lab2second.png)
+
+
+## Part 2
+![Alt text](lab2first.png)
+
