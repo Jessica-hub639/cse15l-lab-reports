@@ -27,5 +27,10 @@ How do the values of any relevant fields of the class change from this specific 
 
 
 ## Part 2
-![Alt text](lab2first.png)
+![Alt text](lab2third.png)
+![Alt text](lab2fourth.png)
+
+## Part 3
+I learned how to effectively use SSH keys to securely access remote servers without needing to enter a password each time.  I learned how to use curl which is useful for quickly verifying server responses.
+
 
