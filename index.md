@@ -1,2 +1,4 @@
 # Lab report 2
 
+![Alt text](1code.png)
+
