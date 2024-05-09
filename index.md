@@ -1,6 +1,7 @@
 # Lab 3
 
-## Test which ends up not a Failure and another that does repectively
+## Part 1
+### Test which ends up not a Failure and another that does repectively
 ```java
 @Test
 public void testReverseInPlaceNoFailure() {
@@ -22,7 +23,7 @@ public void testReverseInPlaceNoFailure() {
 ![Alt text](lab3-1st.png)
 
 
-## Before
+### Before
 ```java
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -31,7 +32,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
-## After
+### After
 ```java
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length / 2; i += 1) {
