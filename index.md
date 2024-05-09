@@ -1,4 +1,4 @@
-#Lab 3
+# Lab 3
 
 ## Test which ends up not a Failure and another that does repectively
 ```java
