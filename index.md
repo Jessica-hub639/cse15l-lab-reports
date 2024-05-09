@@ -377,8 +377,8 @@ This command identifies files recently modified within the last week, useful for
 ### 6. **-mtime**
 ``` find ./technical -mtime +30 ```
 
-```  ```
-This helps identify older files that haven't been modified in over a month. As you can see there was no output, which means all the files where modified within the month.
+```  ``` 
+<p>This helps identify older files that haven't been modified in over a month. As you can see there was no output, which means all the files where modified within the month.</p>.
 
 
 ### 7. **-siza**
@@ -392,6 +392,7 @@ Find files smaller than 200 bytes in `./technical`. This is useful for identifyi
 
 ### 8. **-siza**
 ``` find ./technical -size +100k ```
+
 ```
 ./technical/government/About_LSC/commission_report.txt
 ./technical/government/About_LSC/State_Planning_Report.txt
