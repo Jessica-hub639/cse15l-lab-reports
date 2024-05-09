@@ -390,7 +390,8 @@ This command identifies files recently modified within the last week, useful for
 ```
 Find files smaller than 200 bytes in `./technical`. This is useful for identifying small files, potentially for a review or to ensure they're not unnecessary clutter. 
 
-### 8. **-siza**
+
+## 8. **-siza**
 ``` find ./technical -size +100k ```
 
 ```
