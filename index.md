@@ -50,8 +50,9 @@ For `reverseInPlace`, the fix makes sure the loop only goes through half of the 
 ### 1. **-name**
 This option allows you to search for files by name.
 
-- ** find ./technical/plos -name "*pmed*" **
-- ** ./technical/plos/pmed.0020273.txt
+ ``` find ./technical/plos -name "*pmed*" ```
+```
+./technical/plos/pmed.0020273.txt
 ./technical/plos/pmed.0020065.txt
 ./technical/plos/pmed.0020071.txt
 ./technical/plos/pmed.0020059.txt
@@ -200,7 +201,7 @@ This option allows you to search for files by name.
 ./technical/plos/pmed.0020040.txt
 ./technical/plos/pmed.0020068.txt
 ./technical/plos/pmed.0020281.txt
-./technical/plos/pmed.0020242.txt **
+./technical/plos/pmed.0020242.txt ** ```
 
 This command will list all files related to 'pmed' within the ./technical/plos subdirectory.
 
