@@ -372,13 +372,12 @@ This lists all regular files, ignoring directories, links, etc., which is helpfu
 ./technical/911report/chapter-10.txt
 ./technical/911report/chapter-11.txt
 ```
-This command identifies files recently modified within the last week, useful for tracking recent changes. (It showed all the files, the output above is just the last few)
-
+This command identifies files recently modified within the last week, useful for tracking recent changes. (It showed all the files)
 ### 6. **-mtime**
 ``` find ./technical -mtime +30 ```
 
 ```  ``` 
-<p>This helps identify older files that haven't been modified in over a month. As you can see there was no output, which means all the files where modified within the month.</p>.
+This helps identify older files that haven't been modified in over a month. As you can see there was no output.
 
 
 ### 7. **-siza**
@@ -388,10 +387,10 @@ This command identifies files recently modified within the last week, useful for
 ./technical
 ./technical/government/Alcohol_Problems
 ```
-Find files smaller than 200 bytes in `./technical`. This is useful for identifying small files, potentially for a review or to ensure they're not unnecessary clutter. 
+Find files smaller than 200 bytes in `./technical`. This is useful for identifying small files.
 
 
-## 8. **-siza**
+### 8. **-siza**
 ``` find ./technical -size +100k ```
 
 ```
