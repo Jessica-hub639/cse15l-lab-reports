@@ -19,3 +19,5 @@ public void testReverseInPlaceNoFailure() {
     }
 ```
 
+![Alt text](lab3-1st.png)
+
