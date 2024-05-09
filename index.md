@@ -42,3 +42,8 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+
+For `reverseInPlace`, the fix makes sure the loop only goes through half of the array. It swaps items from the ends towards the middle, using a temporary space to hold an item during the swap. This prevents the program from replacing items incorrectly.
+
+## Part 2
+
