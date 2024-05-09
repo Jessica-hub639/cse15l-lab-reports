@@ -352,3 +352,75 @@ This command lists every directory within `./technical`, helping you understand 
 ```
 (The output is just the last few files output from the command)
 This lists all regular files, ignoring directories, links, etc., which is helpful for file-based operations.
+
+
+### 5. **-mtime**
+``` find ./technical -mtime -7 ```
+
+```
+...
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-8.txt
+./technical/911report/preface.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+```
+This command identifies files recently modified within the last week, useful for tracking recent changes. (It showed all the files, the output above is just the last few)
+
+### 6. **-mtime**
+``` find ./technical -mtime +30 ```
+
+```  ```
+This helps identify older files that haven't been modified in over a month. As you can see there was no output, which means all the files where modified within the month.
+
+
+### 7. **-siza**
+``` find ./technical -size -200c ```
+
+```
+./technical
+./technical/government/Alcohol_Problems
+```
+Find files smaller than 200 bytes in `./technical`. This is useful for identifying small files, potentially for a review or to ensure they're not unnecessary clutter. 
+
+### 8. **-siza**
+``` find ./technical -size +100k ```
+```
+./technical/government/About_LSC/commission_report.txt
+./technical/government/About_LSC/State_Planning_Report.txt
+./technical/government/Env_Prot_Agen/multi102902.txt
+./technical/government/Env_Prot_Agen/ctm4-10.txt
+./technical/government/Env_Prot_Agen/bill.txt
+./technical/government/Env_Prot_Agen/tech_adden.txt
+./technical/government/Gen_Account_Office/d0269g.txt
+./technical/government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt
+./technical/government/Gen_Account_Office/Sept27-2002_d02966.txt
+./technical/government/Gen_Account_Office/d01376g.txt
+./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+./technical/government/Gen_Account_Office/pe1019.txt
+./technical/government/Gen_Account_Office/gg96118.txt
+./technical/government/Gen_Account_Office/d01591sp.txt
+./technical/government/Gen_Account_Office/im814.txt
+./technical/government/Gen_Account_Office/ai9868.txt
+./technical/government/Gen_Account_Office/May1998_ai98068.txt
+./technical/government/Gen_Account_Office/d02701.txt
+./technical/biomed/1471-2105-3-2.txt
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-12.txt
+```
+Find files larger than 100KB in `./technical`.This command helps find larger files, which might be consuming significant disk space.
