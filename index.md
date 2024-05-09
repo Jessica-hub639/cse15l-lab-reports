@@ -424,3 +424,6 @@ Find files smaller than 200 bytes in `./technical`. This is useful for identifyi
 ./technical/911report/chapter-12.txt
 ```
 Find files larger than 100KB in `./technical`.This command helps find larger files, which might be consuming significant disk space.
+
+
+source: [Link Text]([URL](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)) - where I looked to find commands.
