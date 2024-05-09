@@ -153,7 +153,7 @@ This command identifies files recently modified within the last week, useful for
 ### 6. **-mtime**
 ``` find ./technical -mtime +30 ```
 
-```  ``` 
+
 This helps identify older files that haven't been modified in over a month. As you can see there was no output.
 
 
