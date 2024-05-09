@@ -201,12 +201,154 @@ This option allows you to search for files by name.
 ./technical/plos/pmed.0020040.txt
 ./technical/plos/pmed.0020068.txt
 ./technical/plos/pmed.0020281.txt
-./technical/plos/pmed.0020242.txt ** ```
+./technical/plos/pmed.0020242.txt **
+```
 
-This command will list all files related to 'pmed' within the ./technical/plos subdirectory.
+This command will list all files related to `pmed` within the `./technical/plos` subdirectory.
 
 
 ### 2. **-name**
-This option allows you to search for files by name.
+``` find ./technical/plos -name "*journal*" ```
+```
+./technical/plos/journal.pbio.0030032.txt
+./technical/plos/journal.pbio.0020354.txt
+./technical/plos/journal.pbio.0020156.txt
+./technical/plos/journal.pbio.0020140.txt
+./technical/plos/journal.pbio.0020183.txt
+./technical/plos/journal.pbio.0020430.txt
+./technical/plos/journal.pbio.0020394.txt
+./technical/plos/journal.pbio.0020431.txt
+./technical/plos/journal.pbio.0020419.txt
+./technical/plos/journal.pbio.0020169.txt
+./technical/plos/journal.pbio.0020035.txt
+./technical/plos/journal.pbio.0030024.txt
+./technical/plos/journal.pbio.0020223.txt
+./technical/plos/journal.pbio.0020019.txt
+./technical/plos/journal.pbio.0020145.txt
+./technical/plos/journal.pbio.0020353.txt
+./technical/plos/journal.pbio.0020347.txt
+./technical/plos/journal.pbio.0020420.txt
+./technical/plos/journal.pbio.0020346.txt
+./technical/plos/journal.pbio.0020187.txt
+./technical/plos/journal.pbio.0020150.txt
+./technical/plos/journal.pbio.0020232.txt
+./technical/plos/journal.pbio.0030021.txt
+./technical/plos/journal.pbio.0020224.txt
+./technical/plos/journal.pbio.0020146.txt
+./technical/plos/journal.pbio.0020350.txt
+./technical/plos/journal.pbio.0020190.txt
+./technical/plos/journal.pbio.0020147.txt
+./technical/plos/journal.pbio.0030051.txt
+./technical/plos/journal.pbio.0020068.txt
+./technical/plos/journal.pbio.0020054.txt
+./technical/plos/journal.pbio.0020040.txt
+./technical/plos/journal.pbio.0030131.txt
+./technical/plos/journal.pbio.0020337.txt
+./technical/plos/journal.pbio.0020121.txt
+./technical/plos/journal.pbio.0030050.txt
+./technical/plos/journal.pbio.0020241.txt
+./technical/plos/journal.pbio.0020043.txt
+./technical/plos/journal.pbio.0030127.txt
+./technical/plos/journal.pbio.0020042.txt
+./technical/plos/journal.pbio.0020297.txt
+./technical/plos/journal.pbio.0030094.txt
+./technical/plos/journal.pbio.0020046.txt
+./technical/plos/journal.pbio.0020052.txt
+./technical/plos/journal.pbio.0030137.txt
+./technical/plos/journal.pbio.0030136.txt
+./technical/plos/journal.pbio.0020127.txt
+./technical/plos/journal.pbio.0020133.txt
+./technical/plos/journal.pbio.0020053.txt
+./technical/plos/journal.pbio.0020047.txt
+./technical/plos/journal.pbio.0030056.txt
+./technical/plos/journal.pbio.0030097.txt
+./technical/plos/journal.pbio.0020125.txt
+./technical/plos/journal.pbio.0020440.txt
+./technical/plos/journal.pbio.0020263.txt
+./technical/plos/journal.pbio.0020101.txt
+./technical/plos/journal.pbio.0030105.txt
+./technical/plos/journal.pbio.0020302.txt
+./technical/plos/journal.pbio.0020100.txt
+./technical/plos/journal.pbio.0020262.txt
+./technical/plos/journal.pbio.0030065.txt
+./technical/plos/journal.pbio.0020276.txt
+./technical/plos/journal.pbio.0020116.txt
+./technical/plos/journal.pbio.0020063.txt
+./technical/plos/journal.pbio.0030076.txt
+./technical/plos/journal.pbio.0030062.txt
+./technical/plos/journal.pbio.0020067.txt
+./technical/plos/journal.pbio.0020073.txt
+./technical/plos/journal.pbio.0020113.txt
+./technical/plos/journal.pbio.0020311.txt
+./technical/plos/journal.pbio.0030102.txt
+./technical/plos/journal.pbio.0020310.txt
+./technical/plos/journal.pbio.0020112.txt
+./technical/plos/journal.pbio.0020272.txt
+./technical/plos/journal.pbio.0020064.txt
+./technical/plos/journal.pbio.0020306.txt
+./technical/plos/journal.pbio.0030129.txt
+./technical/plos/journal.pbio.0020307.txt
+./technical/plos/journal.pbio.0020105.txt
+./technical/plos/journal.pbio.0020071.txt
+./technical/plos/journal.pbio.0020267.txt
+./technical/plos/journal.pbio.0020228.txt
+./technical/plos/journal.pbio.0020214.txt
+./technical/plos/journal.pbio.0020348.txt
+./technical/plos/journal.pbio.0020406.txt
+./technical/plos/journal.pbio.0020215.txt
+./technical/plos/journal.pbio.0020001.txt
+./technical/plos/journal.pbio.0020161.txt
+./technical/plos/journal.pbio.0020439.txt
+./technical/plos/journal.pbio.0020404.txt
+./technical/plos/journal.pbio.0020148.txt
+./technical/plos/journal.pbio.0020028.txt
+./technical/plos/journal.pbio.0020216.txt
+./technical/plos/journal.pbio.0020206.txt
+./technical/plos/journal.pbio.0020010.txt
+./technical/plos/journal.pbio.0020164.txt
+./technical/plos/journal.pbio.0020400.txt
+./technical/plos/journal.pbio.0020401.txt
+./technical/plos/journal.pbio.0020213.txt
+./technical/plos/journal.pbio.0020013.txt
+./technical/plos/journal.pbio.0020172.txt
+./technical/plos/journal.pbio.0020012.txt
+```
+This command helps locate all files related to `journal` within the `./technical/plos` subdirectory, useful for specific document retrievals.
 
-- **Example 1:**
+### 3. **-type**
+``` find ./technical -type d ```
+```
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+./technical/plos
+./technical/biomed
+./technical/911report
+```
+This command lists every directory within `./technical`, helping you understand the folder structure.
+
+### 4. **-type**
+``` find ./technical -type f ```
+
+```
+...
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-8.txt
+./technical/911report/preface.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+```
+(The output is just the last few files output from the command)
+This lists all regular files, ignoring directories, links, etc., which is helpful for file-based operations.
