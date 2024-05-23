@@ -31,6 +31,12 @@ Time: 0.514
 OK (2 tests)
 ```
 
+## Step 9
+
+` git<space>add<space>ListExamples.java<enter>`, stages the changes made to the `ListExamples.java file.`
+`git<space>commit<space>-m<space>"Fixed failing test"<enter>`, commits the changes with a message describing the fix.
+`git<space>push<space>origin<space>main<enter>`,pushes the committed changes to the main branch of your forked repository on GitHub.
+
 
 
 
