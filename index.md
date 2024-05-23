@@ -18,5 +18,20 @@ Keys Pressed : `cd<space>lab7<enter>`, changes the directory to the cloned repos
 ## Step 7
 Fixed code 
 
+![Alt text](fourth-th.png)
+
+## Step 8
+Keys Pressed :  `bash<space>test.sh<enter>`, again will re-execute the test script.
+
+```
+JUnit version 4.13.2
+..
+Time: 0.514
+
+OK (2 tests)
+```
+
+
+
 
 
