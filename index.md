@@ -6,7 +6,12 @@ Keys Pressed : `ssh<space>your_username@ieng6.ucsd.edu<enter>`,  command initiat
 ![Alt text](fourth-1st.png)
 
 ## Step 5
-Keys Pressed : `git<space>clone<space>git@github.com:your_username/list-examples-grader.git<enter>`
+Keys Pressed : `git<space>clone<space>git@github.com:Jessica-hub639/lab7.git<enter>`, command clones the repository from your GitHub account to your local machine. This creates a local copy of the repository where you can make changes and run tests.
+
+![Alt text](fourth-2nd.png)
+
+## Step 6 
+Keys Pressed : `cd<space>lab7<enter>`, `bash<space>test.sh<enter>`
 
 
 
