@@ -11,7 +11,12 @@ Keys Pressed : `git<space>clone<space>git@github.com:Jessica-hub639/lab7.git<ent
 ![Alt text](fourth-2nd.png)
 
 ## Step 6 
-Keys Pressed : `cd<space>lab7<enter>`, `bash<space>test.sh<enter>`
+Keys Pressed : `cd<space>lab7<enter>`, changes the directory to the cloned repository. `bash<space>test.sh<enter>`, runs the test script included in the repository. The script executes the tests, and the output will show if the tests fail or pass.
+
+![Alt text](fourth-3rd.png)
+
+## Step 7
+Fixed code 
 
 
 
