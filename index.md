@@ -18,7 +18,7 @@ Keys Pressed : `cd<space>lab7<enter>`, changes the directory to the cloned repos
 ## Step 7
 Fixed code 
 
-![Alt text](fourth-th.png)
+![Alt text](fourth-4th.png)
 
 ## Step 8
 Keys Pressed :  `bash<space>test.sh<enter>`, again will re-execute the test script.
